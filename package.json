@@ -1,0 +1,45 @@
+{
+  "name": "khas",
+  "version": "1.0.0",
+  "description": "Checks for the existence of one or more keys in a Map, Object, or other collection. Supports nesting, loose key matching, and more.",
+  "keywords": [
+    "has",
+    "nested",
+    "key",
+    "chain",
+    "collection",
+    "array",
+    "iterator",
+    "map",
+    "object",
+    "set",
+    "typed array",
+    "WeakMap"
+  ],
+  "author": "John Lamansky",
+  "license": "MIT",
+  "homepage": "https://github.com/lamansky/khas",
+  "repository": "lamansky/khas",
+  "main": "index.js",
+  "files": [],
+  "engines": {
+    "node": ">=8.3.0"
+  },
+  "dependencies": {
+    "kget": "^1.0.0",
+    "xfn": "^1.0.0"
+  },
+  "devDependencies": {
+    "eslint-config-lamansky": "^1.0.0",
+    "mocha": "^5.2.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "eslintConfig": {
+    "extends": "lamansky",
+    "env": {
+      "mocha": true
+    }
+  }
+}
